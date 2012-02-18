@@ -3,7 +3,9 @@
 #
 
 
-from core.dreidel import run
+import sys
+from dreidel.core.dreidel import run
+
 
 if __name__ == '__main__':
-    run()
+    sys.exit(run())
