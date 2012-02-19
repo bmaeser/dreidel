@@ -12,7 +12,7 @@ import ConfigParser
 from optparse import OptionParser
 from datetime import date, timedelta
 
-version = "1.0.1"
+version = "1.0.2"
 
 def run():
     usage = "usage: %prog [options]"

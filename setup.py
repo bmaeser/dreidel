@@ -7,13 +7,19 @@ packages = [
     'dreidel'
 ]
 
+with open('readme.md') as file:
+    long_description = file.read()
+
 setup(
     name='dreidel',
-    version="1.0.1",
+    version="1.0.2",
     author='Bernhard Mäser',
     author_email='bernhard.maeser@gmail.com',
-    url='http://bmaeser.io',
+    url='https://github.com/bmaeser/dreidel',
     scripts=['dreidel/dreidel.py'],
+    license="MIT",
+    description="A python replacement for logrotate",
+    long_description=long_description,
     packages = packages,
     classifiers=(
         'Development Status :: 4 - Beta',
