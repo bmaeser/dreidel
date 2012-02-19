@@ -12,7 +12,7 @@ import ConfigParser
 from optparse import OptionParser
 from datetime import date, timedelta
 
-version = "1.0.0"
+version = "1.0.1"
 
 def run():
     usage = "usage: %prog [options]"
@@ -20,8 +20,8 @@ def run():
 
     parser.add_option("-f", "--file", dest="configfile",
     		help="read configuration from CONFIGFILE."
-    		"defaults to /etc/dreidel.conf",
-    		default="/etc/dreidel.conf")
+    		"defaults to /etc/dreidel/dreidel.conf",
+    		default="/etc/dreidel/dreidel.conf")
     parser.add_option("-l", "--logfile", dest="logfile",
     		help="logfile location. defaults to /var/log/dreidel.log",
     		default="/var/log/dreidel.log")

@@ -9,7 +9,7 @@ packages = [
 
 setup(
     name='dreidel',
-    version="1.0.0",
+    version="1.0.1",
     author='Bernhard Mäser',
     author_email='bernhard.maeser@gmail.com',
     url='http://bmaeser.io',
