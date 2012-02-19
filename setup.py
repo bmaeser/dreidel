@@ -13,7 +13,7 @@ setup(
     author='Bernhard Mäser',
     author_email='bernhard.maeser@gmail.com',
     url='http://bmaeser.io',
-    scripts=['bin/dreidel.py'],
+    scripts=['dreidel/dreidel.py'],
     packages = packages,
     classifiers=(
         'Development Status :: 4 - Beta',

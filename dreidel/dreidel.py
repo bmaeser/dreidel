@@ -1,4 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import os
+import sys
 import re
 import gzip
 import shutil
@@ -139,3 +143,6 @@ def run():
 
     logging.info("dreidel stopped")
     logging.shutdown()
+
+if __name__ == '__main__':
+    sys.exit(run())
