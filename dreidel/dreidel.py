@@ -12,7 +12,7 @@ import ConfigParser
 from optparse import OptionParser
 from datetime import date, timedelta
 
-version = "1.0.2"
+version = "1.0.3"
 
 def run():
     usage = "usage: %prog [options]"
@@ -61,8 +61,8 @@ def run():
         (p,filename) = os.path.split(s)
 
         destination_path = p
-        if config.has_option(s, "olddir"):
-            destination_path = config.get(s, "olddir")
+        if config.has_option(s, "archive"):
+            destination_path = config.get(s, "archive")
 
         target_date = date.today()
 

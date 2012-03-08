@@ -30,7 +30,7 @@ A full example:
 
     [/path/to/file]
     compress=true #default to true
-    olddir=/path/to/olddir #uncomment if you don't want to move files
+    archive=/path/to/archive #uncomment if you don't want to move files
     rotate=3 #nr of old versions to keep, 0=no rotation / nothing gets deleted
     date=yesterday #take the day before today # defaults to today
     prerotate=#command to be executed before the moment
