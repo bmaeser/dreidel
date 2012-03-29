@@ -129,14 +129,14 @@ def run():
                 if pattern.match(f) is not None:
                     filelist_target.append(f)
 
-            print filelist_target
+            
 
             filelist_target.sort()
             filelist_target.reverse()
 
             #remove all files from deletion-list that should not be deleted
             del filelist_target[0:rotation]
-            print filelist_target
+
 
             for delfile in filelist_target:
                 os.remove(os.path.join(destination_path, delfile))
